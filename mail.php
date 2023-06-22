@@ -17,7 +17,7 @@ $subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message ."
 \r\n Mobile number =". $number . "\r\n No of packs =". $packs;
 
-$headers = "From: noreply@https://nnamdi4tech.github.io/forms/" . "\r\n" .
+$headers = "From: noreply@nnamdi4tech.github.io/forms/" . "\r\n" .
 "CC: somebodyelse@example.com";
 
 if($email!=NULL){
